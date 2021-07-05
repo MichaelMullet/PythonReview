@@ -20,4 +20,5 @@ while abs(high - low) >= epsilon:
         month = 0
         newBalance = balance
         high = monthlyPayment
-print('Lowest Payment: ' + str(round(monthlyPayment, 2)))
+        
+print('Lowest Payment: ' + str(round(monthlyPayment, 2))) 
